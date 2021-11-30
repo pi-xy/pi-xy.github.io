@@ -1,0 +1,109 @@
+html {
+    margin: 0 auto;
+    background: #eeeeee;
+    position: relative;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+body {
+  margin: 0px;
+  background: #eeeeee;
+  font-family: 'Inconsolata', monospace;
+}
+
+.red {
+  color: #ED230D;
+}
+
+.green {
+  color: #1EB100;
+}
+
+.yellow {
+  color: #F7BA00;
+}
+
+.blue {
+  color: #0376BB;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+
+.home-hero {
+  width: 100%;
+  padding-top:0px;
+  background: #eeeeee;
+}
+
+.hero-console {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20;
+  width: 75%;
+}
+  
+.logo {
+  margin: 32px;
+  display: block;
+  padding-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  width: 66%;
+}
+
+.home-first-section {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  font-size: calc(100% + 0.50vw);
+}
+
+.home-first-section > p
+{
+  padding-left: 8px;
+  font-weight: 500;
+}
+
+.home-first-section > p:nth-child(1)
+{
+  border-left: 4px solid #ED230D
+}
+
+.home-first-section > p:nth-child(2)
+{
+  border-left: 4px solid #1EB100
+}
+
+.home-first-section > p:nth-child(3)
+{
+  border-left: 4px solid #F7BA00
+}
+
+.home-first-section > p:nth-child(4)
+{
+  border-left: 4px solid #0376BB
+}
+
+.home-first-section > p:nth-child(5)
+{
+  border-left: 4px solid #000000
+}
+
+.home-second-section {
+  background: #222222;
+  color: #ffffff;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  line-height: 150%;
+  font-weight: 400;
+  font-size: calc(100% + 0.50vw);
+}
