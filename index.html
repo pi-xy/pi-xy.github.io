@@ -23,11 +23,20 @@
       gtag('js', new Date());
 
       gtag('config', 'G-4LVB626F4M');
+
+      var $ = function (selector) {
+        return document.querySelector(selector);
+      };
+
+      var $ = function (selector, parent) {
+        return (parent ? parent : document).querySelector(selector);
+      };
+
     </script>
   </head>
   <body><img class="logo" src="/static/graphics/logo.png" alt="PIXY"/>
 <div class="home-hero">
-    <video class="home-video-player" src="/static/graphics/pixel-1.mp4" controls muted playsinline></video>
+    <video id="home-video" class="home-video-player" src="/static/graphics/pixel-1.mp4" autoplay muted playsinline></video>
 </div>
 <div class="home-first-section">
     <p>Unha plataforma innovadora de desenvolvemento de videoxogos fácil de usar.</p>
@@ -43,5 +52,10 @@
 <p>Instagram: <a class="yellow" href="https://www.instagram.com/pixyconsola">@pixyConsola</a></p>
 <p>Correo electrónico: <a class="blue" href="mailto:ola@pi-xy.com">ola@pi-xy.com</a></p>
 <p>Web: <a class="white" href="https://pi-xy.com">https://pi-xy.com</a></p>
-</div></body>
+</div>
+
+<!-- <div style="position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);font-size:256px;color:#000000;opacity: 0.66;">▶</div>
+    -->
+
+</body>
 </html>

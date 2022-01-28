@@ -69,8 +69,12 @@ body {
 .home-hero {
   width: 100%;
   position:relative;
-  padding-top:0px;
-  background: #eeeeee;
+  margin-top: 16px;
+  background: #ffffff;
+
+  border-top: 2px solid #ED230D;
+  border-bottom: 2px solid #0376BB;
+
 }
 
 .hero-console {
@@ -85,19 +89,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
   width: 66%;
-}
-.hero-youtube {
-  width:75%!important;
-  height:75%!important;
-  position: absolute;
-  top: 0;
-  left:0;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20;
 }
   
 .logo {
